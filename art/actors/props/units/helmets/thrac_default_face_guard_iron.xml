@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+    <castshadow/>
+    <group>
+        <variant frequency="100" name="Thracian base with faceguard">
+            <mesh>props/units/helmets/thrac_base_helmet.dae</mesh>
+            <textures>
+                <texture file="props/helmets/thrac_default_color_iron.png" name="baseTex"/>
+                <texture file="props/helmets/thrac_default_spec.png" name="specTex"/>
+            </textures>
+            <props>
+                <prop actor="props/units/helmets/thrac_face_guard_iron.xml" attachpoint="root"/>
+            </props>
+        </variant>
+    </group>
+    <material>basic_trans_spec.xml</material>
+</actor>
