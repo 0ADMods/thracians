@@ -11,6 +11,7 @@
         <texture file="structural/ao/thrac_hc_ao.png" name="aoTex"/>
       </textures>
       <props>
+		<prop actor="props/structures/decals/dirt_4x6.xml" attachpoint="root"/>
         <prop actor="particle/sparks.xml" attachpoint="fire01"/>
         <prop actor="particle/flame_firepit_1.xml" attachpoint="fire01"/>
         <prop actor="particle/flame_firepit_2.xml" attachpoint="fire01"/>
