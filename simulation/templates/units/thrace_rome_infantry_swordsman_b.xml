@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_swordsman">
+  <Identity>
+    <Civ>thrace</Civ>
+    <Lang>latin</Lang>
+    <SelectionGroupName>units/rome_infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Romanized Thracian Swordsman</GenericName>
+    <SpecificName>Hastatus</SpecificName>
+    <Icon>units/rome_infantry_swordsman.png</Icon>
+	<RequiredTechnology>thracians/unlock_romans</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/thrace_rome_infantry_swordsman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/thracians/rome_infantry_swordsman_b.xml</Actor>
+  </VisualActor>
+</Entity>

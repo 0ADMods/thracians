@@ -1,0 +1,19 @@
+{
+	"genericName": "Thracian Armor",
+	"specificName": {
+		"thrace": ""
+	},
+	"description": "Thracians were known for their lack of armor, instead focusing more on mobility",
+	"autoResearch": true,
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0},
+	"requirements": {"civ" : "thrace"},
+	"icon": "population.png",
+	"modifications": [
+		{"value": "Armour/Pierce", "add": -1.0},
+		{"value": "Armour/Hack", "add": -1.0},
+		{"value": "Cost/BuildTime", "multiply": 0.9},
+	     {"value" : "UnitMotion/WalkSpeed", "multiply": 1.1},
+		{"value" : "UnitMotion/Run/Speed", "multiply": 1.1}
+	],
+	"affects": ["CitizenSoldier"]
+}

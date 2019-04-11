@@ -1,0 +1,6 @@
+{
+	"genericName": "Advanced Peltasts vs. Slingers",
+	"top": "thracians/unlock_advanced_peltasts",
+	"bottom": "thracians/unlock_slingers",
+	"requirements": { "civ": "thrace" }
+}
