@@ -16,17 +16,13 @@
   <ProductionQueue>
     <Entities datatype="tokens">
       units/thrace_infantry_javelinist_b
-      units/thrace_infantry_swordsman_merc_b
-      units/thrace_cavalry_javelinist_a
-	  units/thrace_rome_infantry_swordsman_b
-	  units/thrace_rome_infantry_spearman_b
-      units/thrace_cavalry_spearman_b
-	  units/thrace_athen_infantry_spearman_b
-      units/thrace_cavalry_swordsman_b
-      units/thrace_infantry_slinger_b
+      units/thrace_infantry_swordsman_b
+	  units/thrace_infantry_rhomphaia_b
+	  units/thrace_infantry_archer_b
+      units/thrace_cavalry_javelinist_b
+	  units/thrace_cavalry_archer_b
     </Entities>
     <Technologies datatype="tokens">
-	  thracians/pair_unlock_barracks
     </Technologies>
   </ProductionQueue>
   <VisualActor>

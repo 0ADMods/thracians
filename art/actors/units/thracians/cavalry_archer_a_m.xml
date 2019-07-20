@@ -2,25 +2,21 @@
 <actor version="1">
   <castshadow/>
   <group>
-    <variant frequency="1" file="quadraped/base_horse_javelin.xml" name="Javelinist Horse">
+    <variant frequency="1" file="quadraped/base_horse_archer.xml" name="Archer Horse">
       <mesh>skeletal/horse.dae</mesh>
       <props>
-        <prop actor="units/thracians/cavalry_javelinist_e_r.xml" attachpoint="rider"/>
+        <prop actor="units/thracians/cavalry_archer_a_r.xml" attachpoint="rider"/>
         <prop actor="props/units/horse/horse_chest_colorband.xml" attachpoint="chest"/>
-        <prop actor="props/horse/cav_blanket_fur.xml" attachpoint="root"/>
-        <prop actor="props/horse/cav_rein_javelin.xml" attachpoint="head"/>
+        <prop actor="props/horse/cav_rein_archer.xml" attachpoint="head"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="1" name="hyppikon-horse-texture-plain">
-      <textures><texture file="skeletal/horse_hele_csw_e_1.dds" name="baseTex"/></textures>
+      <textures><texture file="skeletal/horse_hele_a_1.dds" name="baseTex"/></textures>
     </variant>
-    <variant frequency="1" name="hyppikon-horse-texture-plain2">
-      <textures><texture file="skeletal/horse_hele_csw_e_2.png" name="baseTex"/></textures>
-    </variant>
-    <variant frequency="1" name="hyppikon-horse-texture-blaze">
-      <textures><texture file="skeletal/horse_hele_csw_e_3.png" name="baseTex"/></textures>
+    <variant frequency="1" name="hyppikon-horse-texture-stripe">
+      <textures><texture file="skeletal/horse_hele_a_2.dds" name="baseTex"/></textures>
     </variant>
   </group>
   <group>
@@ -33,11 +29,11 @@
     <variant frequency="1" name="horse-color-black-chestnut">
       <color>164 87 68</color>
     </variant>
-    <variant frequency="5" name="horse-color-gray">
-      <color>255 255 255</color>
+    <variant frequency="1" name="horse-color-gray">
+      <color>210 210 210</color>
     </variant>
-    <variant frequency="2" name="horse-color-beige">
-      <color>251 254 146</color>
+    <variant frequency="1" name="horse-color-beige">
+      <color>209 203 131</color>
     </variant>
     <variant frequency="1" name="horse-color-black">
       <color>81 81 85</color>
@@ -65,7 +61,7 @@
     <variant name="gather_meat">
       <props>
         <prop actor="" attachpoint="rider"/>
-        <prop actor="units/thracians/cavalry_javelinist_e_r.xml" attachpoint="rider_R"/>
+        <prop actor="units/thracians/cavalry_archer_a_r.xml" attachpoint="rider_R"/>
       </props>
     </variant>
   </group>

@@ -3,54 +3,52 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
+      <mesh>skeletal/new/m_tunic_long.dae</mesh>
       <props>
-        <prop actor="props/units/capes/swordsman_shield_ready.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/cloak_black_thracian.xml" attachpoint="root"/>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
         <prop actor="props/units/shields/thracian_oval.xml" attachpoint="shield"/>
-        <prop actor="props/units/weapons/falcata.xml" attachpoint="weapon_R"/>
+        <prop actor="props/units/weapons/jav_ammo.xml" attachpoint="ammo"/>
+        <prop actor="props/units/weapons/rhomphaia.xml" attachpoint="weapon_R"/>
       </props>
     </variant>
   </group>
   <group>
     <variant frequency="2" name="Helmet-1">
       <props>
-        <prop actor="props/units/helmets/hele_iar_e.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/thracian_helmet.xml" attachpoint="helmet"/>
       </props>
     </variant>
     <variant frequency="1" name="Helmet-2">
       <props>
-        <prop actor="props/units/heads/thracian_mercenary.xml" attachpoint="helmet"/>
+        <prop actor="props/units/helmets/thracian_horned_cav_e.xml" attachpoint="helmet"/>
       </props>
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="Tunic-1">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+    <variant frequency="1" name="tunic-old">
       <textures>
-        <texture file="skeletal/hele_ijv_a.dds" name="baseTex"/>
+        <texture file="skeletal/mace_ijv_e.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Tunic-2">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+    <variant frequency="1" name="tunic-white">
       <textures>
-        <texture file="skeletal/hele_ijv_a_2.dds" name="baseTex"/>
+        <texture file="skeletal/hele_ijv_e_2.dds" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Tunic-3">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+    <variant frequency="1" name="tunic-brown">
       <textures>
-        <texture file="skeletal/hele_ijv_a_3.dds" name="baseTex"/>
+        <texture file="skeletal/hele_ijv_e_3.dds" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="Tunic-4">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+    <variant frequency="1" name="tunic-black">
       <textures>
-        <texture file="skeletal/pers_ijv_b_1.dds" name="baseTex"/>
+        <texture file="skeletal/thrace_blackcloak_a.dds" name="baseTex"/>
       </textures>
     </variant>
   </group>
   <group>
-    <variant file="biped/base_swordsman_shield_ready.xml"/>
+    <variant file="biped/base_rhomphaia_shield_fast.xml"/>
     <variant file="biped/carry_food.xml"/>
     <variant file="biped/carry_meat.xml"/>
     <variant file="biped/carry_wood.xml"/>
@@ -73,7 +71,7 @@
     <variant file="biped/build_farm.xml"/>
     <variant file="biped/death_infantry.xml">
       <props>
-        <prop actor="props/units/capes/swordsman_shield_ready.xml" attachpoint="root"/>
+        <prop actor="props/units/capes/cloak_black_thracian.xml" attachpoint="root"/>
       </props>
     </variant>
   </group>
