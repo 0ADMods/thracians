@@ -1,0 +1,13 @@
+{
+	"genericName": "Thracians",
+	"specificName": {
+		"thrace": ""
+	},
+	"autoResearch": true,
+	"description": "By the fifth century BC, the Thracian presence was pervasive enough that Herodotus called them the second-most numerous people in the part of the world known by him, and potentially the most powerful, if not for their lack of unity.",
+	"requirements": {"civ": "thrace"},
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0},
+	"icon": "population.png",
+	"tooltip": "Thracians have a 5% higher maximum population limit.",
+	"modifications": [{"value": "Player/MaxPopulation", "multiply": 1.5}]
+}

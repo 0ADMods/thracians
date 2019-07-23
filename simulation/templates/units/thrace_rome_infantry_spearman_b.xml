@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_infantry_melee_spearman">
+  <Identity>
+    <Civ>thrace</Civ>
+    <Lang>latin</Lang>
+    <SelectionGroupName>units/thrace_rome_infantry_spearman_b</SelectionGroupName>
+    <GenericName>Veteran Spearman</GenericName>
+    <SpecificName>Triarius</SpecificName>
+    <Icon>units/rome_infantry_spearman_militia.png</Icon>
+    <RequiredTechnology>thracians/unlock_romans</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/thrace_rome_infantry_spearman_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/thracians/rome_infantry_spearman_b.xml</Actor>
+  </VisualActor>
+</Entity>

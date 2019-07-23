@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_structure_civic_civil_centre">
+  <Health>
+    <SpawnEntityOnDeath>decay|rubble/rubble_hele_cc</SpawnEntityOnDeath>
+  </Health>
+  <Identity>
+    <Civ>thrace</Civ>
+    <SpecificName>Agorá</SpecificName>
+  </Identity>
+  <ProductionQueue>
+    <Entities datatype="tokens">
+      units/thrace_infantry_swordsman_merc_b
+      units/{civ}_infantry_javelinist_b
+      units/{civ}_cavalry_javelinist_b
+      units/thrace_hero_teres_1
+      units/thrace_hero_sitacles
+    </Entities>
+    <Technologies datatype="tokens">
+    </Technologies>
+  </ProductionQueue>
+  <VisualActor>
+    <Actor>structures/thracians/thrac_cc.xml</Actor>
+  </VisualActor>
+</Entity>

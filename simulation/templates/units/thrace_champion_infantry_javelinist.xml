@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_javelinist">
+  <Cost>
+    <Resources>
+      <food>0</food>
+      <metal op="mul">1</metal>
+    </Resources>
+  </Cost>
+  <Identity>
+    <Civ>thrace</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Thracian Skirmisher</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/mace_thureophoros.png</Icon>
+    <RequiredTechnology>phase_city</RequiredTechnology>
+    <VisibleClasses datatype="tokens"></VisibleClasses>
+  </Identity>
+  <VisualActor>
+    <Actor>units/hellenes/infantry_javelinist_c_thureophoros.xml</Actor>
+  </VisualActor>
+</Entity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_support_female_citizen">
+  <Identity>
+    <Civ>thrace</Civ>
+    <SpecificName>Gýnē Athēnaía</SpecificName>
+    <GenericName>Thracian Woman</GenericName>
+    <Icon>units/hele_support_female_citizen.png</Icon>
+    <SelectionGroupName>units/thrace_support_female_citizen</SelectionGroupName>
+  </Identity>
+  <VisualActor>
+    <Actor>units/thracians/female_citizen.xml</Actor>
+  </VisualActor>
+</Entity>

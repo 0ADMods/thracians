@@ -1,0 +1,166 @@
+{
+	"Code": "thrace",
+	"Culture": "thra",
+	"Name": "Thracians",
+	"Emblem": "session/portraits/emblems/thrace.png",
+	"History": "The Thracians (/ˈθreɪʃənz/; Ancient Greek: Θρᾷκες Thrāikes, Latin: Thraci) were a group of Indo-European tribes inhabiting a large area in Eastern and Southeastern Europe. They spoke the Thracian language – a scarcely attested branch of the Indo-European language family.",
+	"Music": [
+		{
+			"File": "Omri Lahav - Red Dawn.ogg",
+			"Type": "peace"
+		},
+		
+		{
+			"File": "Omri Lahav - Hill of Sorrows.ogg",
+			"Type": "peace"
+		}
+	],
+	"Factions":
+	[
+		{
+			"Name": "Thracians",
+			"Description": "",
+			"Technologies":
+			[
+				{
+					"Name": "",
+					"History": "",
+					"Description": ""
+				},
+				{
+					"Name": "Dacians",
+					"History": "",
+					"Description": "The Dacians (/ˈdeɪʃənz/; Latin: Daci, Ancient Greek: Δάκοι,[2] Δάοι,[2] Δάκαι[3]) were an Indo-European people, part of or related to the Thracians. Dacians were the ancient inhabitants of Dacia, located in the area in and around the Carpathian Mountains and west of the Black Sea."
+				}
+			],
+			"Heroes":
+			[
+				{
+					"Name": "Teres I",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Teres united the 40 or more Thracian tribes under one banner after the Persian defeat in Greece. He died during a military campaign in 445 BC."
+				},
+				{
+					"Name": "Sitalces",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": "Sitalces enlarged his kingdom by successful wars, and it soon comprised the whole territory from Abdera in the south to the mouths of the Danube in the north, and from the Black Sea in the east to the sources of the Struma in the west. At the commencement of the Peloponnesian war Sitalces entered into an alliance with the Athenians, and in 429 BC he invaded Macedon with a vast army that included 150,000 warriors from independent Thracian tribes and Paeonian tribes."
+				},
+				{
+					"Name": "",
+					"Class": "",
+					"Armament": "",
+					"Emblem": "",
+					"History": ""
+				}
+			]
+		}
+	],
+	"CivBonuses":
+	[
+		{
+			"Name": "Thracian Peltasts",
+			"History": "Thracian Peltasts were renouned for their skill as javelinists and were often hired as mercinaries by other city-states.",
+			"Description": "You can produce champion peltasts"
+		},
+		{
+			"Name": "Thracian Armor",
+			"History": "Thracians were known for their lack of armor, instead focusing more on mobility.",
+			"Description": "-1 armor level for all thracian citizen soldiers, but also -10% train time and + 10% speed."
+		},
+		{
+			"Name": "Thracians",
+			"History": "By the fifth century BC, the Thracian presence was pervasive enough that Herodotus called them the second-most numerous people in the part of the world known by him, and potentially the most powerful, if not for their lack of unity.",
+			"Description": "Thracians have a +5% population cap bonus."
+		}
+	],
+	"TeamBonuses":
+	[
+		{
+			"Name": "",
+			"History": "",
+			"Description": ""
+		}
+	],
+	"Structures":
+	[
+		{
+			"Name": "",
+			"Class": "",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "",
+			"Special": ""
+		},
+				{
+			"Name": "",
+			"Class": "",
+			"Emblem": "",
+			"History": "",
+			"Requirements": "",
+			"Phase": "",
+			"Special": ""
+		}
+	],
+	"WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/helle_wallset_stone"
+	],
+	"StartEntities":
+	[
+		{
+			"Template": "structures/thrace_civil_centre"
+		},
+		{
+			"Template": "units/thrace_support_female_citizen",
+			"Count": 4
+		},
+		{
+			"Template": "units/thrace_infantry_javelinist_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/thrace_infantry_swordsman_b",
+			"Count": 2
+		},
+		{
+			"Template": "units/thrace_cavalry_javelinist_b"
+		}
+	],
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line"
+	],
+	"AINames":
+	[
+		"Orpheus",
+		"Sitalces",
+		"Amadocus",
+		"Teres I",
+		"Decebalus",
+		"Burebista"
+	],
+	"SkirmishReplacements":
+	{
+		"skirmish/structures/default_house_5": "structures/{civ}_house",
+		"skirmish/structures/default_fortress": "structures/{civ}_barracks",
+		"skirmish/units/default_infantry_ranged_b": "units/thrace_infantry_javelinist_b",
+		"skirmish/units/default_infantry_melee_b": "units/thrace_infantry_swordsman_b"
+	},
+
+	"SelectableInGameSetup": true
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_ranged_archer">
+  <Identity>
+    <Civ>thra</Civ>
+    <Classes datatype="tokens">Thracian</Classes>
+    <Icon>units/thra_cavalry_archer_b.png</Icon>
+    <Rank>Basic</Rank>
+    <SelectionGroupName>units/thrace_cavalry_archer_b</SelectionGroupName>
+    <SpecificName>Thracian</SpecificName>
+	<RequiredTechnology>phase_town</RequiredTechnology>
+  </Identity>
+  <Promotion>
+    <Entity>units/thrace_cavalry_archer_a</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/thracians/cavalry_archer_b_m.xml</Actor>
+  </VisualActor>
+</Entity>

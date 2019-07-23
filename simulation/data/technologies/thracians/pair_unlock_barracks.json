@@ -1,0 +1,6 @@
+{
+	"genericName": "Greek Influenced Barracks vs Roman Influenced Barracks ",
+	"top": "thracians/unlock_greeks",
+	"bottom": "thracians/unlock_romans",
+	"requirements": { "civ": "thrace" }
+}

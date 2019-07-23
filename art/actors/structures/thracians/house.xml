@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<actor version="1">
+  <castshadow/>
+  <group>
+    <variant frequency="1" name="celt house a">
+      <mesh>structural/celt_house_a.dae</mesh>
+      <props>
+        <prop actor="props/structures/celts/house_a_shields.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="celt house b">
+      <mesh>structural/celt_house_b.dae</mesh>
+      <props>
+        <prop actor="props/structures/celts/house_b_door.xml" attachpoint="root"/>
+      </props>
+    </variant>
+    <variant frequency="1" name="celt house c">
+      <mesh>structural/celt_house_c.dae</mesh>
+      <props>
+        <prop actor="props/structures/celts/house_c_door.xml" attachpoint="root"/>
+      </props>
+    </variant>
+  </group>
+  <group>
+    <variant frequency="1" name="texture">
+      <textures>
+	    <texture file="structural/celt_struct_1.dds" name="baseTex"/>
+	    <texture file="structural/celt_struct_1_norm.png" name="normTex"/>
+	    <texture file="structural/celt_struct_1_spec.png" name="specTex"/>
+	  </textures>
+    </variant>
+  </group>
+  <group>
+    <variant name="alive" frequency="1"/>
+    <variant name="death">
+      <props>
+        <prop actor="particle/destruction_smoke_small.xml" attachpoint="dust"/>
+        <prop actor="particle/destruction_dust_small.xml" attachpoint="dust"/>
+        <prop actor="particle/destruction_dust_small_gray.xml" attachpoint="dust"/>
+      </props>
+    </variant>
+  </group>
+  <material>player_trans_parallax_spec.xml</material>
+</actor>

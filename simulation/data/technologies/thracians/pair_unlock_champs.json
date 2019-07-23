@@ -1,0 +1,6 @@
+{
+	"genericName": "Greek Influenced Champs vs Roman Influenced Champs",
+	"top": "thracians/unlock_greeks",
+	"bottom": "thracians/unlock_romans",
+	"requirements": { "civ": "thrace" }
+}

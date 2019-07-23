@@ -1,0 +1,10 @@
+{
+	"pair": "thracians/pair_unlock_barracks",
+	"genericName": "Roman-Influenced Barracks",
+	"description": "Enables training of Romanized Swordsmen, Lancer Calvary, and Roman Spearmen",
+	"cost": {"food": 0, "wood": 0, "stone": 0, "metal": 0},
+	"icon": "thrace_champion_roman.png",
+	"researchTime": 0,
+	"tooltip": "",
+	"soundComplete": "interface/alarm/alarm_upgradearmory.xml"
+}
