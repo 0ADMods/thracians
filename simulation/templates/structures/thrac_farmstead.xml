@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_4x2</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>mace</Civ>
+    <Civ>thrac</Civ>
     <SpecificName>Sitobólion</SpecificName>
   </Identity>
   <Obstruction>

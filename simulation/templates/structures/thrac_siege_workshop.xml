@@ -13,7 +13,7 @@
     <SpawnEntityOnDeath>rubble/rubble_stone_4x4</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>mace</Civ>
+    <Civ>thrac</Civ>
     <SpecificName>Synergeîon Poliorkētṓn</SpecificName>
     <GenericName>Siege Workshop</GenericName>
     <Tooltip>Build siege engines. Research siege technologies.</Tooltip>

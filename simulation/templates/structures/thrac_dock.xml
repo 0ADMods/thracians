@@ -8,7 +8,7 @@
     <SpawnEntityOnDeath>rubble/rubble_hele_dock</SpawnEntityOnDeath>
   </Health>
   <Identity>
-    <Civ>mace</Civ>
+    <Civ>thrac</Civ>
     <SpecificName>Limḗn</SpecificName>
   </Identity>
   <Obstruction>

@@ -1,23 +1,19 @@
 {
-	"Code": "thra",
-	"Culture": "thra",
-	"Name": "Thracians",
-	"Emblem": "session/portraits/emblems/emblem_thracian.png",
-	"History": "The Thracians (/ˈθreɪʃənz/; Ancient Greek: Θρᾷκες Thrāikes, Latin: Thraci) were a group of Indo-European tribes inhabiting a large area in Eastern and Southeastern Europe.[1] They spoke the Thracian language – a scarcely attested branch of the Indo-European language family.",
-	"Music": [
-		{
-			"File": "Omri Lahav - Red Dawn.ogg",
-			"Type": "peace"
-		},
-		{
-			"File": "Omri Lahav - Hill of Sorrows.ogg",
-			"Type": "peace"
-		}
-	],
+	"Code":"thrac",
+	"Culture":"thrac",
+	"Name":"Thracians",
+	"Emblem":"session/portraits/emblems/emblem_thracian.png",
+	"History":"The Thracians were a group of Indo-European tribes inhabiting a large area in Eastern and Southeastern Europe. They spoke the Thracian language – a scarcely attested branch of the Indo-European language family.",
+	"Music":[
+			{"File":"Helen_Leaves_Sparta.ogg", "Type":"peace"},
+			{"File":"Peaks_of_Atlas.ogg", "Type":"peace"},
+			{"File":"Forging_a_City-State.ogg", "Type":"peace"},
+			{"File":"The_Hellespont.ogg", "Type":"peace"}
+		],
 	"Factions": [
 		{
 			"Name": "Dacians",
-			"Description": "The Dacians (/ˈdeɪʃənz/; Latin: Daci, Ancient Greek: Δάκοι,[2] Δάοι,[2] Δάκαι[3]) were an Indo-European people, part of or related to the Thracians. Dacians were the ancient inhabitants of Dacia, located in the area in and around the Carpathian Mountains and west of the Black Sea.",
+			"Description": "The Dacians were an Indo-European people, part of or related to the Thracians. Dacians were the ancient inhabitants of Dacia, located in the area in and around the Carpathian Mountains and west of the Black Sea.",
 			"Technologies": [],
 			"Heroes": []
 		}
@@ -27,35 +23,37 @@
 	"Structures": [],
 	"StartEntities": [
 		{
-			"Template": "structures/thra_civil_centre"
+			"Template": "structures/thrac_civil_centre"
 		},
 		{
-			"Template": "units/thra_support_female_citizen",
+			"Template": "units/thrac_support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/thra_infantry_spearman_b",
+			"Template": "units/thrac_infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/thra_infantry_archer_b",
+			"Template": "units/thrac_infantry_javelinist_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/thra_cavalry_archer_b"
+			"Template": "units/thrac_cavalry_javelinist_b"
 		}
 	],
-	"Formations": [
-		"formations/null",
-		"formations/box",
-		"formations/column_closed",
-		"formations/line_closed",
-		"formations/column_open",
-		"formations/line_open",
-		"formations/flank",
-		"formations/skirmish",
-		"formations/wedge",
-		"formations/battle_line"
+	"Formations":
+	[
+		"special/formations/null",
+		"special/formations/box",
+		"special/formations/column_closed",
+		"special/formations/line_closed",
+		"special/formations/column_open",
+		"special/formations/line_open",
+		"special/formations/flank",
+		"special/formations/skirmish",
+		"special/formations/wedge",
+		"special/formations/battle_line",
+		"special/formations/phalanx"
 	],
 	"AINames": [
 		"Orpheus",
@@ -66,8 +64,8 @@
 		"Burebista"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/thra_infantry_archer_b",
-		"skirmish/units/default_cavalry": "units/thra_cavalry_archer_b"
+		"skirmish/units/default_infantry_ranged_b": "units/thrac_infantry_javelinist_b",
+		"skirmish/units/default_cavalry": "units/thrac_cavalry_javelinist_b"
 	},
 	"SelectableInGameSetup": true
 }
