@@ -1,31 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_unit_support_female_citizen">
-  <Attack>
-    <Melee>
-      <Damage>
-        <Hack op="mul">1.5</Hack>
-      </Damage>
-    </Melee>
-  </Attack>
-  <Builder>
-    <Entities datatype="tokens">
-      other/wallset_palisade
-    </Entities>
-  </Builder>
-  <Health>
-    <Max op="mul">1.4</Max>
-  </Health>
   <Identity>
     <Civ>thrac</Civ>
-    <Lang>greek</Lang>
     <GenericName>Thracian Woman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/spart_support_female_citizen.png</Icon>
     <SelectionGroupName>units/thrac_support_female_citizen</SelectionGroupName>
   </Identity>
-  <UnitAI>
-    <CanPatrol>true</CanPatrol>
-  </UnitAI>
   <VisualActor>
     <Actor>units/spartans/female_citizen.xml</Actor>
   </VisualActor>
