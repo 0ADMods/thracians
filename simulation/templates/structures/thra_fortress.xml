@@ -3,12 +3,6 @@
   <Identity>
     <Civ>thra</Civ>
   </Identity>
-  <ProductionQueue>
-    <Entities datatype="tokens">
-      units/{civ}_champion_cavalry
-      units/{civ}_champion_infantry
-    </Entities>
-  </ProductionQueue>
   <VisualActor>
     <Actor>structures/gauls/fortress_gallic.xml</Actor>
   </VisualActor>

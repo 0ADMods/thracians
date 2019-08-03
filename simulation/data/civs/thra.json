@@ -23,22 +23,22 @@
 	"Structures": [],
 	"StartEntities": [
 		{
-			"Template": "structures/thrac_civil_centre"
+			"Template": "structures/thra_civil_centre"
 		},
 		{
-			"Template": "units/thrac_support_female_citizen",
+			"Template": "units/thra_support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/thrac_infantry_spearman_b",
+			"Template": "units/thra_infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/thrac_infantry_javelinist_b",
+			"Template": "units/thra_infantry_javelinist_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/thrac_cavalry_javelinist_b"
+			"Template": "units/thra_cavalry_javelinist_b"
 		}
 	],
 	"Formations":
@@ -64,8 +64,10 @@
 		"Burebista"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_infantry_ranged_b": "units/thrac_infantry_javelinist_b",
-		"skirmish/units/default_cavalry": "units/thrac_cavalry_javelinist_b"
+		"skirmish/structures/default_house_5" : "structures/thra_house",
+		"skirmish/units/default_cavalry": "units/thra_cavalry_javelinist_b",
+		"skirmish/units/default_infantry_melee_b": "units/thra_infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/thra_infantry_javelinist_b"
 	},
 	"SelectableInGameSetup": true
 }
