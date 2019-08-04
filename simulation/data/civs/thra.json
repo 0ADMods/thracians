@@ -12,8 +12,20 @@
 		],
 	"Factions": [
 		{
-			"Name": "Dacians",
-			"Description": "The Dacians were an Indo-European people, part of or related to the Thracians. Dacians were the ancient inhabitants of Dacia, located in the area in and around the Carpathian Mountains and west of the Black Sea.",
+			"Name": "Bithynians",
+			"Description": "The Bithynians were a Thracian tribe who crossed the Bosporus and founded an Hellenistic kingdom in Asia Minor, Bithynia (297–74 BC). Nicomedia was its capital, named after its second king, Nicomedes I of Bithynia.",
+			"Technologies": [],
+			"Heroes": []
+		}
+		{
+			"Name": "Getae",
+			"Description": "The Getae were Thracian peoples living along the lower Danube. They were heavily influenced by neighboring Scythians.",
+			"Technologies": [],
+			"Heroes": []
+		}
+		{
+			"Name": "Odrysians",
+			"Description": "The Odrysians were the dominant tribe in Thrace proper. The Odrysian kingdom emerged in the aftermath of the Persian invasions (480 BC) and nominally continued to exist until it was abolished by Emperor Claudius (46 AD), although in reality it was often dominated by its powerful neighbor Macedon and later Rome.",
 			"Technologies": [],
 			"Heroes": []
 		}
