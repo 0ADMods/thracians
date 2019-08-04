@@ -5,5 +5,5 @@
 	"url": "https://github.com/0ADMods/thracians",
 	"description": "Thracian faction for 0 A.D.",
 	"dependencies": ["0ad>=0.0.24"],
-	"type": "Factions"
+	"type": "civ"
 }
