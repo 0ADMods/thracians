@@ -14,6 +14,6 @@
     </Entities>
   </ProductionQueue>
   <VisualActor>
-    <Actor>structures/thracians/civil_centre.xml</Actor>
+    <Actor>structures/thracians/civic_centre.xml</Actor>
   </VisualActor>
 </Entity>
