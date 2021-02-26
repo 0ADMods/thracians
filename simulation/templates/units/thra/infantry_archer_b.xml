@@ -4,10 +4,10 @@
     <Civ>thra</Civ>
     <GenericName>Thracian Archer</GenericName>
     <Icon>units/thra_infantry_archer.png</Icon>
-    <SelectionGroupName>units/thra_infantry_archer_b</SelectionGroupName>
+    <SelectionGroupName>units/thra/infantry_archer_b</SelectionGroupName>
   </Identity>
   <Promotion>
-    <Entity>units/thra_infantry_archer_a</Entity>
+    <Entity>units/thra/infantry_archer_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/thracians/infantry_archer_b.xml</Actor>

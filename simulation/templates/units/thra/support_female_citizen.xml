@@ -4,7 +4,7 @@
     <Civ>thra</Civ>
     <GenericName>Thracian Woman</GenericName>
     <Icon>units/spart_support_female_citizen.png</Icon>
-    <SelectionGroupName>units/thra_support_female_citizen</SelectionGroupName>
+    <SelectionGroupName>units/thra/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
     <Actor>units/spartans/female_citizen.xml</Actor>
