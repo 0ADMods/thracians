@@ -2,7 +2,7 @@
 	"Code": "thra",
 	"Culture": "thra",
 	"Name": "Thracians",
-	"Emblem": "session/portraits/emblems/emblem_thracian.png",
+	"Emblem": "session/portraits/units/thra_infantry_spearman.png",
 	"History": "The Thracians were a group of Indo-European tribes inhabiting a large area in Eastern and Southeastern Europe. They spoke the Thracian language – a scarcely attested branch of the Indo-European language family.",
 	"Music": [
 		{
@@ -47,22 +47,22 @@
 	"Structures": [],
 	"StartEntities": [
 		{
-			"Template": "structures/thra_civil_centre"
+			"Template": "structures/thra/civil_centre"
 		},
 		{
-			"Template": "units/thra_support_female_citizen",
+			"Template": "units/thra/support_female_citizen",
 			"Count": 4
 		},
 		{
-			"Template": "units/thra_infantry_spearman_b",
+			"Template": "units/thra/infantry_spearman_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/thra_infantry_javelinist_b",
+			"Template": "units/thra/infantry_javelinist_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/thra_cavalry_javelinist_b"
+			"Template": "units/thra/cavalry_javelinist_b"
 		}
 	],
 	"Formations": [
@@ -87,10 +87,10 @@
 		"Burebista"
 	],
 	"SkirmishReplacements": {
-		"skirmish/structures/default_house_5": "structures/thra_house",
-		"skirmish/units/default_cavalry": "units/thra_cavalry_javelinist_b",
-		"skirmish/units/default_infantry_melee_b": "units/thra_infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/thra_infantry_javelinist_b"
+		"skirmish/structures/default_house_5": "structures/thra/house",
+		"skirmish/units/default_cavalry": "units/thra/cavalry_javelinist_b",
+		"skirmish/units/default_infantry_melee_b": "units/thra/infantry_spearman_b",
+		"skirmish/units/default_infantry_ranged_b": "units/thra/infantry_javelinist_b"
 	},
 	"SelectableInGameSetup": true
 }
