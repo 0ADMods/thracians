@@ -6,7 +6,7 @@
   </Footprint>
   <Identity>
     <Civ>thra</Civ>
-    <SelectionGroupName>structures/thra_wallset_stone</SelectionGroupName>
+    <SelectionGroupName>structures/thra/wallset_stone</SelectionGroupName>
   </Identity>
   <Obstruction>
     <Static width="13.0" depth="7.0"/>

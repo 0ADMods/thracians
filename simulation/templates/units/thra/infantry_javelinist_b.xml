@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_infantry_ranged_javelinist">
+<Entity parent="template_unit_infantry_ranged_javelineer">
   <Identity>
     <Civ>thra</Civ>
     <GenericName>Thracian Skirmisher</GenericName>
     <Icon>units/thra_infantry_javelinist.png</Icon>
-    <SelectionGroupName>units/thra_infantry_javelinist_b</SelectionGroupName>
+    <SelectionGroupName>units/thra/infantry_javelinist_b</SelectionGroupName>
   </Identity>
   <Promotion>
-    <Entity>units/thra_infantry_javelinist_a</Entity>
+    <Entity>units/thra/infantry_javelinist_a</Entity>
   </Promotion>
   <VisualActor>
     <Actor>units/thracians/infantry_javelinist_b.xml</Actor>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="units/thra_support_healer_a">
+<Entity parent="units/thra/support_healer_a">
   <Identity>
     <Rank>Elite</Rank>
   </Identity>
