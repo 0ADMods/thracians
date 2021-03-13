@@ -45,6 +45,11 @@
 	"CivBonuses": [],
 	"TeamBonuses": [],
 	"Structures": [],
+        "WallSets":
+	[
+		"other/wallset_palisade",
+		"structures/thra/wallset_stone"
+	],
 	"StartEntities": [
 		{
 			"Template": "structures/thra/civil_centre"
