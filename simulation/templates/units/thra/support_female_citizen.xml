@@ -7,6 +7,6 @@
     <SelectionGroupName>units/thra/support_female_citizen</SelectionGroupName>
   </Identity>
   <VisualActor>
-    <Actor>units/spartans/female_citizen.xml</Actor>
+    <Actor>units/thracians/female_citizen.xml</Actor>
   </VisualActor>
 </Entity>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="hoplite|template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>thra</Civ>
+    <Lang>greek</Lang>
+    <GenericName>Thracian Hoplite</GenericName>
+    <SpecificName></SpecificName>
+    <Icon>units/spart_champion_infantry_spear.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/thracians/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>
