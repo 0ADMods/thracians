@@ -10,19 +10,19 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="thra-female-1">
+    <variant frequency="1" name="Thrac-Tunic-Female-01">
       <textures>
-        <texture file="skeletal/thra_tunic_female_01.png" name="baseTex"/>
+        <texture file="skeletal/thrac/tunic_female_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="thra-female-2">
+    <variant frequency="1" name="Thrac-Tunic-Female-02">
       <textures>
-        <texture file="skeletal/thra_tunic_female_02.png" name="baseTex"/>
+        <texture file="skeletal/thrac/tunic_female_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="thra-female-3">
+    <variant frequency="1" name="Thrac-Tunic-Female-03">
       <textures>
-        <texture file="skeletal/thra_tunic_female_03.png" name="baseTex"/>
+        <texture file="skeletal/thrac/tunic_female_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>

@@ -9,9 +9,6 @@
         <prop actor="props/units/weapons/spear_hoplite.xml" attachpoint="weapon_R"/>
         <prop actor="props/units/shields/aspis_mace_hypaspist.xml" attachpoint="shield_arm"/>
       </props>
-      <textures>
-        <texture file="skeletal/hele_linothorax_1_spec.png" name="specTex"/>
-      </textures>
     </variant>
   </group>
   <group>
@@ -59,34 +56,22 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="hele-cuirass-2a">
+    <variant frequency="1" name="Mace-Cuirass-01-01">
       <textures>
-        <texture file="skeletal/hele_cuirass_2_a.png" name="baseTex"/>
-        <texture file="skeletal/hele_cuirass_2_spec.png" name="specTex"/>
+        <texture file="skeletal/mace/cuirass_01_01.png" name="baseTex"/>
+        <texture file="skeletal/hele/cuirass_02_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="mace-cuirass-1a">
+    <variant frequency="3" name="Hele-Scale-01-01">
       <textures>
-        <texture file="skeletal/mace_cuirass_1_a.png" name="baseTex"/>
-        <texture file="skeletal/hele_cuirass_2_spec.png" name="specTex"/>
+        <texture file="skeletal/hele/scale_01_01.png" name="baseTex"/>
+        <texture file="skeletal/hele/scale_01_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="1" name="mace-cuirass-1b">
+    <variant frequency="1" name="Thrac-Scale-01-01">
       <textures>
-        <texture file="skeletal/mace_cuirass_1_b.png" name="baseTex"/>
-        <texture file="skeletal/hele_cuirass_2_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="1" name="mace-cuirass-1d">
-      <textures>
-        <texture file="skeletal/mace_cuirass_1_d.png" name="baseTex"/>
-        <texture file="skeletal/hele_cuirass_2_spec.png" name="specTex"/>
-      </textures>
-    </variant>
-    <variant frequency="3" name="hele-scale-1a">
-      <textures>
-        <texture file="skeletal/hele_scale_1_a.png" name="baseTex"/>
-        <texture file="skeletal/hele_scale_1_spec.png" name="specTex"/>
+        <texture file="skeletal/thrac/scale_01_01.png" name="baseTex"/>
+        <texture file="skeletal/no_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

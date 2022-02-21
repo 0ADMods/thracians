@@ -3,7 +3,7 @@
   <castshadow/>
   <group>
     <variant frequency="1" name="Base">
-      <mesh>skeletal/new/m_tunic_short.dae</mesh>
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <props>
         <prop actor="props/units/heads/new/head_thrace.xml" attachpoint="head"/>
         <prop actor="props/units/shields/thra_thureos_elite.xml" attachpoint="shield"/>
@@ -30,19 +30,16 @@
     </variant>
   </group>
   <group>
-    <variant frequency="1" name="tunic-boots-1a">
+    <variant frequency="1" name="Mace-Linothorax-01-08">
       <textures>
-        <texture file="skeletal/mace_tunic_hellenistic_sleeveless_boots_1_a.png" name="baseTex"/>
+        <texture file="skeletal/mace/linothorax_01_08.png" name="baseTex"/>
+        <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
       </textures>
     </variant>
-    <variant frequency="3" name="tunic-boots-1b">
+    <variant frequency="1" name="Mace-Linothorax-01-09">
       <textures>
-        <texture file="skeletal/mace_tunic_hellenistic_sleeveless_boots_1_b.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant frequency="2" name="tunic-boots-1c">
-      <textures>
-        <texture file="skeletal/mace_tunic_hellenistic_sleeveless_boots_1_c.png" name="baseTex"/>
+        <texture file="skeletal/mace/linothorax_01_09.png" name="baseTex"/>
+        <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>

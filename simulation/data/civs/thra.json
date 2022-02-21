@@ -1,20 +1,17 @@
 {
 	"Code": "thra",
 	"Culture": "thra",
-	"Name": "Thracians",
-	"Emblem": "session/portraits/units/thra_infantry_spearman.png",
-	"History": "The Thracians were a group of Indo-European tribes inhabiting a large area in Eastern and Southeastern Europe. They spoke the Thracian language – a scarcely attested branch of the Indo-European language family.",
 	"Music": [
 		{
-			"File": "Helen_Leaves_Sparta.ogg",
+			"File": "Rise_of_Macedon.ogg",
 			"Type": "peace"
 		},
 		{
-			"File": "Peaks_of_Atlas.ogg",
+			"File": "In_the_Shadow_of_Olympus.ogg",
 			"Type": "peace"
 		},
 		{
-			"File": "Forging_a_City-State.ogg",
+			"File": "Elysian_Fields.ogg",
 			"Type": "peace"
 		},
 		{
@@ -22,33 +19,10 @@
 			"Type": "peace"
 		}
 	],
-	"Factions": [
-		{
-			"Name": "Bithynians",
-			"Description": "The Bithynians were a Thracian tribe who crossed the Bosporus and founded an Hellenistic kingdom in Asia Minor, Bithynia (297–74 BC). Nicomedia was its capital, named after its second king, Nicomedes I of Bithynia.",
-			"Technologies": [],
-			"Heroes": []
-		},
-		{
-			"Name": "Getae",
-			"Description": "The Getae were Thracian peoples living along the lower Danube. They were heavily influenced by neighboring Scythians.",
-			"Technologies": [],
-			"Heroes": []
-		},
-		{
-			"Name": "Odrysians",
-			"Description": "The Odrysians were the dominant tribe in Thrace proper. The Odrysian kingdom emerged in the aftermath of the Persian invasions (480 BC) and nominally continued to exist until it was abolished by Emperor Claudius (46 AD), although in reality it was often dominated by its powerful neighbor Macedon and later Rome.",
-			"Technologies": [],
-			"Heroes": []
-		}
-	],
 	"CivBonuses": [],
-	"TeamBonuses": [],
-	"Structures": [],
-        "WallSets":
-	[
-		"other/wallset_palisade",
-		"structures/thra/wallset_stone"
+	"WallSets": [
+		"structures/wallset_palisade",
+		"structures/mace/wallset_stone"
 	],
 	"StartEntities": [
 		{
@@ -63,25 +37,12 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/thra/infantry_javelinist_b",
+			"Template": "units/thra/infantry_javelineer_b",
 			"Count": 2
 		},
 		{
-			"Template": "units/thra/cavalry_javelinist_b"
+			"Template": "units/thra/cavalry_spearman_b"
 		}
-	],
-	"Formations": [
-		"special/formations/null",
-		"special/formations/box",
-		"special/formations/column_closed",
-		"special/formations/line_closed",
-		"special/formations/column_open",
-		"special/formations/line_open",
-		"special/formations/flank",
-		"special/formations/skirmish",
-		"special/formations/wedge",
-		"special/formations/battle_line",
-		"special/formations/phalanx"
 	],
 	"AINames": [
 		"Orpheus",
@@ -92,10 +53,9 @@
 		"Burebista"
 	],
 	"SkirmishReplacements": {
-		"skirmish/structures/default_house_5": "structures/thra/house",
 		"skirmish/units/default_cavalry": "units/thra/cavalry_javelinist_b",
 		"skirmish/units/default_infantry_melee_b": "units/thra/infantry_spearman_b",
-		"skirmish/units/default_infantry_ranged_b": "units/thra/infantry_javelinist_b"
+		"skirmish/structures/default_house_5": "structures/{civ}/house"
 	},
 	"SelectableInGameSetup": true
 }

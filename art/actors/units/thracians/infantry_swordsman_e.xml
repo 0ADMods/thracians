@@ -12,7 +12,7 @@
         <prop actor="props/units/capes/cape_thracian.xml" attachpoint="root"/>
       </props>
       <textures>
-        <texture file="skeletal/hele_linothorax_1_spec.png" name="specTex"/>
+        <texture file="skeletal/hele/linothorax_01_spec.png" name="specTex"/>
       </textures>
     </variant>
   </group>
@@ -62,36 +62,22 @@
     </variant>
   </group>
   <group>
-    <variant name="thra-tunic-blackcloak-a">
-      <mesh>skeletal/new/m_tunic_long.dae</mesh>
+    <variant frequency="1" name="Illy-Linothorax-01-01">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/thrace_blackcloak_a.dds" name="baseTex"/>
-        <texture file="skeletal/no_spec.png" name="specTex"/>
+        <texture file="skeletal/illy/linothorax_01_01.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant name="illy-linothorax-01-a">
+    <variant frequency="1" name="Illy-Linothorax-01-02">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/illy_linothorax_01_a.png" name="baseTex"/>
+        <texture file="skeletal/illy/linothorax_01_02.png" name="baseTex"/>
       </textures>
     </variant>
-    <variant name="illy-linothorax-01-b">
+    <variant frequency="1" name="Illy-Linothorax-01-03">
+      <mesh>skeletal/new/m_armor_tunic_short.dae</mesh>
       <textures>
-        <texture file="skeletal/illy_linothorax_01_b.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant name="illy-linothorax-01-c">
-      <textures>
-        <texture file="skeletal/illy_linothorax_01_c.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant name="mace-linothora-1-h">
-      <textures>
-        <texture file="skeletal/mace_linothorax_1_h.png" name="baseTex"/>
-      </textures>
-    </variant>
-    <variant name="mace-linothora-1-i">
-      <textures>
-        <texture file="skeletal/mace_linothorax_1_i.png" name="baseTex"/>
+        <texture file="skeletal/illy/linothorax_01_03.png" name="baseTex"/>
       </textures>
     </variant>
   </group>
