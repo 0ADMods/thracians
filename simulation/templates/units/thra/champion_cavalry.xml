@@ -3,7 +3,7 @@
   <Identity>
     <Civ>thra</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/mace_champion_cavalry.png</Icon>
+    <Icon>units/thra_champion_cavalry_spearman.png</Icon>
     <SelectionGroupName>units/thra/champion_cavalry</SelectionGroupName>
   </Identity>
   <VisualActor>

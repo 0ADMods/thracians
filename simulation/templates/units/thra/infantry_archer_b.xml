@@ -4,7 +4,7 @@
     <Civ>thra</Civ>
     <SelectionGroupName>units/thra/infantry_archer_b</SelectionGroupName>
     <SpecificName></SpecificName>
-    <Icon>units/hele_infantry_archer.png</Icon>
+    <Icon>units/thra_infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/thra/infantry_archer_a</Entity>

@@ -4,7 +4,7 @@
     <Civ>thra</Civ>
     <SelectionGroupName>units/thra/infantry_javelineer_b</SelectionGroupName>
     <SpecificName></SpecificName>
-    <Icon>units/gaul_infantry_javelinist.png</Icon>
+    <Icon>units/thra_infantry_javelineer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/thra/infantry_javelineer_a</Entity>

@@ -6,7 +6,7 @@
     <Civ>thra</Civ>
     <GenericName>Thracians</GenericName>
     <History>Ancient Thracians.</History>
-    <Icon>emblems/emblem_macedonians.png</Icon>
+    <Icon>emblems/emblem_thracians.png</Icon>
   </Identity>
   <Player>
     <Formations datatype="tokens">

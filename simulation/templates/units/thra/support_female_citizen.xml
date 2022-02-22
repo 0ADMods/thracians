@@ -2,9 +2,8 @@
 <Entity parent="template_unit_support_female_citizen">
   <Identity>
     <Civ>thra</Civ>
-    <GenericName>Thracian Woman</GenericName>
-    <Icon>units/spart_support_female_citizen.png</Icon>
-    <SelectionGroupName>units/thra/support_female_citizen</SelectionGroupName>
+    <SpecificName></SpecificName>
+    <Icon>units/thra_support_female_citizen.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/thracians/female_citizen.xml</Actor>

@@ -4,7 +4,7 @@
     <Civ>thra</Civ>
     <SelectionGroupName>units/thra/infantry_spearman_b</SelectionGroupName>
     <SpecificName></SpecificName>
-    <Icon>units/sele_infantry_spearman_2.png</Icon>
+    <Icon>units/thra_infantry_spearman.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/thra/infantry_spearman_a</Entity>

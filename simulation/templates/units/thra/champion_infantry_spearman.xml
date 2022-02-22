@@ -3,7 +3,7 @@
   <Identity>
     <Civ>thra</Civ>
     <SpecificName></SpecificName>
-    <Icon>units/spart_champion_infantry_spear.png</Icon>
+    <Icon>units/thra_champion_infantry_spearman.png</Icon>
   </Identity>
   <VisualActor>
     <Actor>units/thracians/infantry_spearman_c.xml</Actor>
