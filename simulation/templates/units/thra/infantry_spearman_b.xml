@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_melee_spearman">
   <Identity>
     <Civ>thra</Civ>
-    <GenericName>Thracian Spearman</GenericName>
-    <Icon>units/thra_infantry_spearman.png</Icon>
     <SelectionGroupName>units/thra/infantry_spearman_b</SelectionGroupName>
+    <SpecificName></SpecificName>
+    <Icon>units/sele_infantry_spearman_2.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/thra/infantry_spearman_a</Entity>

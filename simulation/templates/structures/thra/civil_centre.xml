@@ -1,19 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity parent="template_structure_civic_civil_centre">
+  <Footprint>
+    <Square width="28.0" depth="28.0"/>
+    <Height>8.0</Height>
+  </Footprint>
   <Health>
     <SpawnEntityOnDeath>rubble/rubble_hele_cc</SpawnEntityOnDeath>
   </Health>
   <Identity>
     <Civ>thra</Civ>
+    <SpecificName></SpecificName>
   </Identity>
-  <ProductionQueue>
+  <Obstruction>
+    <Static width="25.0" depth="25.0"/>
+  </Obstruction>
+  <Trainer>
     <Entities datatype="tokens">
       units/{civ}/infantry_spearman_b
-      units/{civ}/infantry_javelinist_b
-      units/{civ}/cavalry_javelinist_b
+      units/{civ}/infantry_javelineer_b
+      units/{civ}/cavalry_javelineer_b
+      units/{civ}/hero_infantry_swordsman
+      units/{civ}/hero_cavalry_spearman
     </Entities>
-  </ProductionQueue>
+  </Trainer>
   <VisualActor>
     <Actor>structures/thracians/civic_centre.xml</Actor>
   </VisualActor>
 </Entity>
+

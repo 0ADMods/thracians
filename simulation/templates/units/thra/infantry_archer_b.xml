@@ -2,9 +2,9 @@
 <Entity parent="template_unit_infantry_ranged_archer">
   <Identity>
     <Civ>thra</Civ>
-    <GenericName>Thracian Archer</GenericName>
-    <Icon>units/thra_infantry_archer.png</Icon>
     <SelectionGroupName>units/thra/infantry_archer_b</SelectionGroupName>
+    <SpecificName></SpecificName>
+    <Icon>units/hele_infantry_archer.png</Icon>
   </Identity>
   <Promotion>
     <Entity>units/thra/infantry_archer_a</Entity>

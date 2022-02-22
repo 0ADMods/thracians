@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_champion_infantry_spearman">
+  <Identity>
+    <Civ>thra</Civ>
+    <SpecificName></SpecificName>
+    <Icon>units/spart_champion_infantry_spear.png</Icon>
+  </Identity>
+  <VisualActor>
+    <Actor>units/thracians/infantry_spearman_c.xml</Actor>
+  </VisualActor>
+</Entity>

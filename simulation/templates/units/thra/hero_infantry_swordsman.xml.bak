@@ -13,6 +13,6 @@
     <Icon>units/mace_hero_demetrius.png</Icon>
   </Identity>
   <VisualActor>
-    <Actor>units/thracians/hero_infantry_swordsman.xml</Actor>
+    <Actor>units/thracians/hero_infantry_swordsman_01.xml</Actor>
   </VisualActor>
 </Entity>

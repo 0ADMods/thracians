@@ -41,7 +41,7 @@
 			"Count": 2
 		},
 		{
-			"Template": "units/thra/cavalry_spearman_b"
+			"Template": "units/thra/cavalry_javelineer_b"
 		}
 	],
 	"AINames": [
@@ -53,7 +53,7 @@
 		"Burebista"
 	],
 	"SkirmishReplacements": {
-		"skirmish/units/default_cavalry": "units/thra/cavalry_javelinist_b",
+		"skirmish/units/default_cavalry": "units/thra/cavalry_javelineer_b",
 		"skirmish/units/default_infantry_melee_b": "units/thra/infantry_spearman_b",
 		"skirmish/structures/default_house_5": "structures/{civ}/house"
 	},
