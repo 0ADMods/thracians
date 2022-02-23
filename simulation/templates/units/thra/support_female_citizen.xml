@@ -2,6 +2,7 @@
 <Entity parent="template_unit_support_female_citizen">
   <Identity>
     <Civ>thra</Civ>
+    <GenericName>Thracian Woman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/thra_support_female_citizen.png</Icon>
   </Identity>

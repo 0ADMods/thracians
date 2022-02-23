@@ -2,6 +2,7 @@
 <Entity parent="template_unit_cavalry_ranged_javelineer">
   <Identity>
     <Civ>thra</Civ>
+    <GenericName>Thracian Cavalry Skirmisher</GenericName>
     <SelectionGroupName>units/thra/cavalry_javelineer_b</SelectionGroupName>
     <SpecificName></SpecificName>
     <Icon>units/thra_cavalry_javelineer.png</Icon>

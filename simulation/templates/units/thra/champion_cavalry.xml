@@ -2,6 +2,7 @@
 <Entity parent="template_unit_champion_cavalry_spearman">
   <Identity>
     <Civ>thra</Civ>
+    <GenericName>Thracian Royal Cavalry</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/thra_champion_cavalry_spearman.png</Icon>
     <SelectionGroupName>units/thra/champion_cavalry</SelectionGroupName>

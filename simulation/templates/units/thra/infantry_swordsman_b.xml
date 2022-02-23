@@ -3,6 +3,7 @@
   <Identity>
     <Civ>thra</Civ>
     <SelectionGroupName>units/thra/infantry_swordsman_b</SelectionGroupName>
+    <GenericName>Thracian Swordsman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/thra_infantry_swordsman.png</Icon>
   </Identity>

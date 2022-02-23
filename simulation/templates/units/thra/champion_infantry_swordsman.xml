@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Entity parent="template_unit_champion_infantry_spearman">
+<Entity parent="template_unit_champion_infantry_swordsman">
   <Identity>
     <Civ>thra</Civ>
-    <GenericName>Thracian Hoplite</GenericName>
+    <GenericName>Triballi Tribesmen</GenericName>
     <SpecificName></SpecificName>
-    <Icon>units/thra_champion_infantry_spearman.png</Icon>
+    <Icon>units/thra_champion_infantry_swordsman.png</Icon>
     <RequiredTechnology>unlock_champion_infantry</RequiredTechnology>
   </Identity>
   <VisualActor>
-    <Actor>units/thracians/infantry_spearman_c.xml</Actor>
+    <Actor>units/thracians/infantry_swordsman_c.xml</Actor>
   </VisualActor>
 </Entity>

@@ -3,6 +3,7 @@
   <Identity>
     <Civ>thra</Civ>
     <SelectionGroupName>units/thra/infantry_spearman_b</SelectionGroupName>
+    <GenericName>Thracian Spearman</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/thra_infantry_spearman.png</Icon>
   </Identity>

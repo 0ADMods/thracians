@@ -3,6 +3,7 @@
   <Identity>
     <Civ>thra</Civ>
     <SelectionGroupName>units/thra/infantry_javelineer_b</SelectionGroupName>
+    <GenericName>Thracian Skirmisher</GenericName>
     <SpecificName></SpecificName>
     <Icon>units/thra_infantry_javelineer.png</Icon>
   </Identity>
